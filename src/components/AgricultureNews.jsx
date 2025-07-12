@@ -7,7 +7,7 @@ const AgricultureNews = () => {
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        const url = `https://agrihelpbackend.up.railway.app`; // Your API endpoint
+        const url = `https://agrihelp-backend-j7wh.onrender.com`; // Your API endpoint
         const response = await fetch(url);
         const data = await response.json();
 
